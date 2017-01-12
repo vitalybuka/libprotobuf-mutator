@@ -37,8 +37,6 @@ class LibFuzzerProtobufMutator : public ProtobufMutator {
                            size_t allowed_growth) override;
 };
 
-// TODO(vitalybuka): Helpers do define LLVMFuzzerCustomMutator.
-
 }  // namespace protobuf_mutator
 
 #endif  // LIBFUZZER_PROTOBUF_MUTATOR_H_
